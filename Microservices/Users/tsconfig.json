@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "lib": ["es2017", "esnext.asynciterable"],
+      "module": "commonjs",
+      "types": ["reflect-metadata", "node"],
+      "outDir": "build",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true
+    },
+    "include": ["src/**/*.ts", "test/**/*.ts", "newrelic.js"],
+    "exclude": ["node_modules", "build"],
+    "buildOnSave": true,
+    "compileOnSave": true
+  }
+  
